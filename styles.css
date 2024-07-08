@@ -70,6 +70,13 @@ img {
   animation: piscar 2s ease-in-out infinite;
 }
 
+.icons {
+  animation: piscar 2s ease-in-out infinite;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -135,6 +142,11 @@ img {
     font-family: "Lucida Sans";
     text-align: justify;
     margin: 10px;
+  }
+  .pContato {
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    text-align: left;
   }
 
   section {
@@ -224,8 +236,12 @@ img {
   }
 
   .links {
-    flex-direction: column;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
     gap: 8px;
+    flex-wrap: wrap;
   }
 
   .links a {
