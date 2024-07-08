@@ -1,0 +1,96 @@
+body {
+  background-color: #000000;
+}
+h1 {
+  color: #e53939;
+  font-family: "Lucida Sans", sans-serif;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.963);
+}
+p {
+  color: #ffffff;
+  font-family: "Lucida Sans";
+  text-align: justify;
+  margin-right: 100px;
+}
+section {
+  margin: 100px;
+}
+footer {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Lucida Sans";
+}
+hr.three-d {
+  border: none;
+  height: 2px;
+  background-color: #333;
+  box-shadow: 0 1px 1px #bbb;
+}
+b {
+  color: #e53939;
+}
+@keyframes piscar {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.piscar {
+  animation: piscar 2s ease-in-out infinite;
+}
+.homeContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  padding: 5px 15px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  flex: 0 0 auto;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #e53939;
+  font-family: "Lucida Sans";
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+
+.links a:hover {
+  background-color: #ddd;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a {
+  color: white;
+  size: 50px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.social-icons a:hover {
+  transform: scale(1.2);
+}
