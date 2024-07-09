@@ -4,16 +4,17 @@ body {
 h1 {
   color: #e53939;
   font-family: "Lucida Sans", sans-serif;
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.963);
 }
 p {
   color: #ffffff;
   font-family: "Lucida Sans";
   text-align: justify;
   margin-right: 100px;
+  padding-left: 30px;
 }
 section {
-  margin: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 footer {
   text-align: center;
@@ -48,6 +49,7 @@ b {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 5px;
 }
 img {
   width: 100%;
@@ -110,6 +112,7 @@ img {
   justify-content: center;
   align-items: center;
   size: 100px;
+  margin-top: 50px;
 }
 
 .social-icons a {
@@ -120,6 +123,11 @@ img {
 }
 .social-icons a:hover {
   transform: scale(1.2);
+}
+.pContato {
+  color: #ffffff;
+  font-family: "Lucida Sans";
+  text-align: left;
 }
 
 @media only screen and (max-width: 768px) {
@@ -186,7 +194,7 @@ img {
 
   .tecnologias {
     width: 30%;
-    margin-left: 120px;
+    margin-left: 100px;
     display: flex;
     align-items: center;
   }
