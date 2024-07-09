@@ -16,6 +16,7 @@ section {
   margin-left: 100px;
   margin-right: 100px;
 }
+
 footer {
   text-align: center;
   color: #ffffff;
@@ -30,6 +31,18 @@ hr.three-d {
 b {
   color: #e53939;
 }
+@keyframes customAni {
+  0% {
+    transform: scaleY(0.4);
+    transform-origin: 100% 0%;
+  }
+
+  100% {
+    transform: scaleY(1);
+    transform-origin: 100% 0%;
+  }
+}
+
 @keyframes piscar {
   0% {
     opacity: 1;
@@ -149,7 +162,6 @@ img {
     color: #ffffff;
     font-family: "Lucida Sans";
     text-align: justify;
-    margin: 10px;
   }
   .pContato {
     color: #ffffff;
