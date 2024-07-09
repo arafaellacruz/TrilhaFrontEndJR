@@ -6,7 +6,7 @@ Este projeto tem como objetivo criar uma página web onde os candidatos podem se
 
 ### Deploy do Projeto
 
-![Vercel](https://vercel.com/rafacruzzs-projects/rafaella-cruz-trilha-front-end-jr)
+🔗 <a href="https://rafaella-cruz-trilha-front-end-jr.vercel.app/" target="_blank">Vercel</a>
 
 ## Estrutura da Página
 
